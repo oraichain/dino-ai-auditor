@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dinohub-ai-auditor"
+version = "0.1.0"
+description = "Auditor Component (Service) that purposed for auditing a AI service using testcases"
+authors = ["tuancaurao <tuan.pt@orai.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dinohub_ai_auditor"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dinohub-seedwork-be = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
